@@ -177,7 +177,6 @@
 		21DCB1821898B5A300090756 /* libx264.125.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DCB0D91898B5A200090756 /* libx264.125.dylib */; };
 		21DCB1831898B5A300090756 /* libx264.125.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DCB0DA1898B5A200090756 /* libx264.125.dylib */; };
 		21DCB1841898B5A300090756 /* libxvidcore.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DCB0DB1898B5A200090756 /* libxvidcore.4.dylib */; };
-		21DCB1871899589A00090756 /* code6-5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21DCB1861899589A00090756 /* code6-5.cpp */; };
 		21E3F2F318982BBC00DACCC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E3F2F218982BBC00DACCC0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -368,7 +367,6 @@
 		21DCB0DA1898B5A200090756 /* libx264.125.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libx264.125.dylib; path = ../../../../usr/local/Cellar/x264/r2197.4/lib/libx264.125.dylib; sourceTree = "<group>"; };
 		21DCB0DB1898B5A200090756 /* libxvidcore.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxvidcore.4.dylib; path = ../../../../usr/local/Cellar/xvid/1.3.2/lib/libxvidcore.4.dylib; sourceTree = "<group>"; };
 		21DCB1851898BA6300090756 /* object_tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object_tracker.h; sourceTree = "<group>"; };
-		21DCB1861899589A00090756 /* code6-5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "code6-5.cpp"; sourceTree = "<group>"; };
 		21DCB18818995A9D00090756 /* Dense */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dense; sourceTree = "<group>"; };
 		21E3F2EF18982BBC00DACCC0 /* opencv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E3F2F218982BBC00DACCC0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -575,7 +573,6 @@
 		21E3F2F118982BBC00DACCC0 /* opencv */ = {
 			isa = PBXGroup;
 			children = (
-				21DCB1861899589A00090756 /* code6-5.cpp */,
 				21E3F2F218982BBC00DACCC0 /* main.cpp */,
 			);
 			path = opencv;
@@ -815,7 +812,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E3F2F318982BBC00DACCC0 /* main.cpp in Sources */,
-				21DCB1871899589A00090756 /* code6-5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
