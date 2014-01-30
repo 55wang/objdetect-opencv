@@ -366,8 +366,6 @@
 		21DCB0D91898B5A200090756 /* libx264.125.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libx264.125.dylib; path = ../../../../usr/local/Cellar/x264/r2197.4/lib/libx264.125.dylib; sourceTree = "<group>"; };
 		21DCB0DA1898B5A200090756 /* libx264.125.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libx264.125.dylib; path = ../../../../usr/local/Cellar/x264/r2197.4/lib/libx264.125.dylib; sourceTree = "<group>"; };
 		21DCB0DB1898B5A200090756 /* libxvidcore.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxvidcore.4.dylib; path = ../../../../usr/local/Cellar/xvid/1.3.2/lib/libxvidcore.4.dylib; sourceTree = "<group>"; };
-		21DCB1851898BA6300090756 /* object_tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object_tracker.h; sourceTree = "<group>"; };
-		21DCB18818995A9D00090756 /* Dense */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dense; sourceTree = "<group>"; };
 		21E3F2EF18982BBC00DACCC0 /* opencv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E3F2F218982BBC00DACCC0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -581,8 +579,6 @@
 		21E3F2FB189831AC00DACCC0 /* opencv */ = {
 			isa = PBXGroup;
 			children = (
-				21DCB18818995A9D00090756 /* Dense */,
-				21DCB1851898BA6300090756 /* object_tracker.h */,
 				21DCB0301898B5A100090756 /* libavcodec.54.92.100.dylib */,
 				21DCB0311898B5A100090756 /* libavcodec.54.92.100.dylib */,
 				21DCB0331898B5A100090756 /* libavcodec.54.92.100.dylib */,
